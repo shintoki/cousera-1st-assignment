@@ -1,0 +1,84 @@
+#maindiv {
+box-sizing : border-box;
+}
+h2 {
+text-align : center;
+font-family : papyrus;
+}
+#d1 {
+background-color : grey;
+position : relative;
+border : 2px solid black;
+float : left;
+margin-right : 10px;
+}
+
+#d2 {
+background-color : grey;
+position : relative;
+border : 2px solid black;
+float : left;
+margin-right : 10px;
+}
+
+#d3 {
+background-color : grey;
+position : relative;
+border : 2px solid black;
+float : left;
+}
+
+#hd1{
+border : 2px solid black;
+background-color : pink;
+width : 33%;
+float : right;
+right : 0px;
+top : 0px;
+
+}
+#hd2{
+border : 2px solid black;
+background-color : red;
+width : 33%;
+float : right;
+right : 0px;
+top : 0px;
+}
+#hd3{
+border : 2px solid black;
+background-color : yellow;
+width : 33%;
+float : right;
+right : 0px;
+top : 0px;
+}
+
+#p1{
+background-color : grey;
+font-family : papyrus;
+margin: 0px;
+}
+
+#p1, #p2, #p3{
+background-color : grey;
+font-family : papyrus;
+clear : both;
+margin: 0px;
+}
+
+@media(min-width: 1200px) {
+#d1 {width : 32%;}
+#d2 {width : 32%}
+#d3 {width : 32%}
+}
+@media(min-width: 768px)and(max-width:1199px) {
+#d1 {width : 49%;}
+#d2 {width : 49%}
+#d3 {width : 100%}
+}
+@media(max-width:767px){
+#d1 {width : 100%; margin-bottom : 10px;}
+#d2 {width : 100%; margin-bottom : 10px;}
+#d3 {width : 100%; margin-bottom : 10px;}
+}
